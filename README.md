@@ -22,27 +22,18 @@ Now you may think this code is enough for the SDV to navigate the maze and deliv
 
 
 
-First we utilize lists and variables, I have created a 2d list to represent the maze with the 0's being blocks in the maze and the 1's being the path the SDV should take to complete and 2 being the destination. The row and column variables indicate the placement of the SDV in regardance to the 2d list. They are the lenght of the list in rows and columns which are numerically 8 but in code 0 is counted as a number so their value will be 7
+First we utilize lists and variables, I have created a 2d list to represent the maze with the 0's being blocks in the maze and the 1's being the path the SDV should take to complete and 2 being the destination. The row and column variables indicate the placement of the SDV in regardance to the 2d list. They are the lenght of the list in rows and columns which are numerically 8 but in code 0 is counted as a number so their value will be 7 (you can't explicitly see that in the program)
 
 
 ![image](https://github.com/user-attachments/assets/d4bdfb19-32e8-4080-b6c3-7276c61255ec)
 
+Now using the 2D list we have creaed we have tied in booleans. The boolean named onpath is set to true when the SDV is on a block which corresponds with the letter 1 on the 2d list. And the boolean is set to false when it corresponds to anything else. Now combined with the vision sensors code for reacting to objects and the SDV's internal sense of direction it can navigate the maze all the way to the checkered red block where it keeps on spinning in circles. 
 
-![image](https://github.com/user-attachments/assets/da47f318-96a6-4af1-991d-28bb3ada23de)
+![image](https://github.com/user-attachments/assets/19e0ed82-bd56-4b41-8127-064fbb4b33e1)
 
+The final edit we will make to the code is we will terminate the code using the stop driving block when the block (finishing block) correlating to the list which is noted as 2 is driven on. Now the code works normally: 
 
-![image](https://github.com/user-attachments/assets/4becc7b5-cc18-45fa-ab67-5643ef4a406b)
-
-
-
-![image](https://github.com/user-attachments/assets/c8d15149-2ba0-49e1-845a-f73c90263f86)
+![image](https://github.com/user-attachments/assets/bb49164a-8a7c-450f-a470-fdf23da2a485)
 
 
 
-
-
-![image](https://github.com/user-attachments/assets/30e91ae5-be36-4412-947e-3de446ffc354)
-
-
-
-![image](https://github.com/user-attachments/assets/4e11596e-017f-4d94-8be1-812fcfff8d31)
