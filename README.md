@@ -37,3 +37,15 @@ The final edit we will make to the code is we will terminate the code using the 
 
 
 
+Now moving on to Final Project Unit 3: 
+
+For this I will be expanding the student registration activity for 3.2.4. Currently my code looks like this. The code implements a basic student course registration system across three Python files: course.py, student.py, and course_registration.py. In course.py, various courses (e.g., "Algebra I", "Earth Science") are defined as objects, while student.py features a Student class that assigns unique IDs, stores names and courses in lists, and provides methods like get_first_name, get_last_name, and add_course, utilizing Python slices (e.g., [0] for first name, [-1] for last name) to parse names. The course_registration.py script creates three students—"Jill Smith", "Bill Edwards", and "Timmy Jones"—assigns them courses, stores them in a list, and prints their details using iteration and direct list indexing (e.g., student_list[2]). Key concepts include classes, objects, initialization, string representation, methods, lists, loops, imports, static variables, and python slice (learned outside of class). Everything covered in lesson 3 before 3.2.5 is here. I am going to make a simulation (similar to the rock paper sszicors game) could simulate student enrollment over a semester by also using randint function to iterate between lists. 
+
+![image](https://github.com/user-attachments/assets/6f5b04af-37e7-44ad-933a-232aeb2faa2b)
+![image](https://github.com/user-attachments/assets/08d360df-5721-4ced-9ec5-3a74199eb8f9)
+![image](https://github.com/user-attachments/assets/c7c6a6e1-82c0-4ca4-b123-e87064563a30)
+
+
+
+
+
