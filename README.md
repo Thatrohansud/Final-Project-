@@ -28,6 +28,7 @@ First we utilize lists and variables, I have created a 2d list to represent the 
 ![image](https://github.com/user-attachments/assets/d4bdfb19-32e8-4080-b6c3-7276c61255ec)
 
 
+![image](https://github.com/user-attachments/assets/da47f318-96a6-4af1-991d-28bb3ada23de)
 
 
 ![image](https://github.com/user-attachments/assets/4becc7b5-cc18-45fa-ab67-5643ef4a406b)
